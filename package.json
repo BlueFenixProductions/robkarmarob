@@ -1,7 +1,13 @@
 {
   "name": "robkarmarob",
   "version": "3.2.0",
-  "description": "Actor on stage and screen, Vocalist, Artist",
+  "description": "Actor on stage and screen, Vocalist, Artist","homepage": "https://robkarmarob.com",
+  "author": "Chris Pelatari <chris@bluefenix.net>",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ChrisPelatari/robkarmarob.git"
+  },
   "scripts": {
     "dev": "vite",
     "build": "vue-tsc --noEmit && vite build",
@@ -24,5 +30,5 @@
     "vite": "^5.1.5",
     "vite-plugin-vuetify": "^2.0.3",
     "vue-tsc": "^2.0.6"
-  }
+  }  
 }
